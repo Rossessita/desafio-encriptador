@@ -1,0 +1,99 @@
+body{
+    background: #EFF1FA;
+    font-family: "Tapestry", serif;
+    font-weight: 400;
+}
+header{
+    padding: 20px 0 20px 0;  
+}
+
+.logocabeza{
+
+    padding: 10px 0;
+}
+.titulo{
+    text-align: center;
+    display: inline-block;
+    padding: 0 200px;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+form{
+    margin: 40px 0 0 40px;
+}
+
+.input-padron{
+    display: block;
+    padding: 0 110px 0;
+    margin: 0 20px 10px 100px;
+    width: 30%;
+    background: none;
+    outline: none;
+    border: none;
+    color: #0A3871;
+    font-size: 28px;
+}
+
+textarea::placeholder{
+    color:#0A3871;
+    font-size: 28px;
+}
+
+.imagenleyenda{
+    margin: 0 10px;
+}
+.leyenda{
+    width: 320px;
+    margin: 0 20px 20px 100px;
+}
+
+
+
+.encriptar{
+    display: inline;
+    width: 320px;
+    height: 67px;
+    margin: 0 20px 10px 100px;
+    background: #072B61;
+    color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 2em;
+    transition: 1s all;
+    border-style: solid;
+    font-size: 18px;
+    
+    
+}
+
+.desencriptar{
+    display: inline;
+    width: 320px;
+    height: 67px;
+    margin: 0 10px 10px 20px;
+    color: #0A3871;
+    background: #EFF1FA;
+    border-color: #0A3871;
+    border-radius: 2em;
+    transition: 1s all;
+    border-style: solid;
+    font-size: 18px;
+    
+}
+
+footer{
+    text-align: center;
+    padding: 40px;
+    
+}
+footer p {
+    padding: 20px 0 20px;
+}
+
