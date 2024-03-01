@@ -1,21 +1,21 @@
 body{
     background: #EFF1FA;
     font-family: "Tapestry", serif;
-    font-weight: 400;
 }
+
 header{
-    padding: 20px 0 20px 0;  
+    padding: 5px 0 20px 0;  
 }
 
 .logocabeza{
-
-    padding: 10px 0;
+    padding: 6px 0;
 }
+
 .titulo{
     text-align: center;
     display: inline-block;
     padding: 0 200px;
-    font-size: 52px;
+    font-size: 46px;
     font-weight: bold;
 }
 
@@ -26,42 +26,69 @@ header{
     text-decoration: underline;
 }
 
-form{
-    margin: 40px 0 0 40px;
+main{
+    display: flex;
 }
 
-.input-padron{
-    display: block;
-    padding: 0 110px 0;
-    margin: 0 20px 10px 100px;
-    width: 30%;
+.mensaje{
     background: none;
+    margin: 5px 10px 5px 150px;
+    width: 650px;
+    height: 430px;
     outline: none;
     border: none;
-    color: #0A3871;
-    font-size: 28px;
+    color:#0A3871;
+    font-size: 24px;  
 }
 
-textarea::placeholder{
+.mensaje::placeholder{
     color:#0A3871;
-    font-size: 28px;
+    font-size: 24px;
+}
+
+.mensaje-cifrado{
+    background: #ffffff;
+    background-image: url(Muñeco.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: 5px 10px 5px 200px;
+    padding: 15px 10px;
+    width: 450px;
+    height: 540px;
+    border-radius: 2em;
+    outline: none;
+    border: none;
+    color:#0A3871;
+    position: absolute;
+    font-size: 24px; 
+}
+
+.mensaje-cifrado::placeholder{
+    color:#000000;
+    font-size: 20px;
+    text-align: center;
+    padding: 200px 10px;
+}
+
+.mensaje-cifrado:active{
+    background: #ffffff;
 }
 
 .imagenleyenda{
     margin: 0 10px;
 }
+
 .leyenda{
     width: 320px;
-    margin: 0 20px 20px 100px;
+    margin: 10px 20px 10px 150px;
 }
-
-
 
 .encriptar{
     display: inline;
     width: 320px;
-    height: 67px;
-    margin: 0 20px 10px 100px;
+    height: 60px;
+    margin: 0 20px 10px 150px;
     background: #072B61;
     color: #ffffff;
     border-color: #ffffff;
@@ -69,31 +96,43 @@ textarea::placeholder{
     transition: 1s all;
     border-style: solid;
     font-size: 18px;
-    
-    
+    cursor: pointer; 
 }
 
 .desencriptar{
     display: inline;
     width: 320px;
-    height: 67px;
+    height: 60px;
     margin: 0 10px 10px 20px;
     color: #0A3871;
     background: #EFF1FA;
     border-color: #0A3871;
     border-radius: 2em;
-    transition: 1s all;
+    transition: 2s all;
     border-style: solid;
     font-size: 18px;
-    
+    cursor: pointer;
+}
+
+.copiar{
+    border: 1px solid #0A3871;
+    border-radius: 2em;
+    color: #0A3871;
+    cursor: pointer;
+    height: 60px;
+    margin-left: 280px;
+    margin-top: 480px;
+    position: absolute;
+    width: 320px;
+    font-size: 18px;
+    transition: 2s all;
 }
 
 footer{
     text-align: center;
-    padding: 40px;
+    padding: 55px 0 0;
     
 }
 footer p {
-    padding: 20px 0 20px;
+    padding: 5px 0 0;
 }
-
