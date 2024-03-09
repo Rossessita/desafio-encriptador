@@ -91,10 +91,9 @@ main{
     margin: 0 20px 10px 150px;
     background: #072B61;
     color: #ffffff;
-    border-color: #ffffff;
+    border: 1px solid #ffffff;
     border-radius: 2em;
     transition: 1s all;
-    border-style: solid;
     font-size: 18px;
     cursor: pointer; 
 }
@@ -106,10 +105,9 @@ main{
     margin: 0 10px 10px 20px;
     color: #0A3871;
     background: #EFF1FA;
-    border-color: #0A3871;
+    border: 1px solid #0A3871;
     border-radius: 2em;
     transition: 2s all;
-    border-style: solid;
     font-size: 18px;
     cursor: pointer;
 }

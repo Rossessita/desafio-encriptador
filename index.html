@@ -12,9 +12,6 @@
                        
     </head>
 
-
-
-
     <body>
         <header>
             <img class="logocabeza" src="Logo-1.png">
@@ -27,14 +24,14 @@
                 <textarea id="mensaje" cols="70" rows="15" class="mensaje" required placeholder="Ingrese el texto aquí..."></textarea>
                 <div>
                     <p class="leyenda"><img class="imagenleyenda" src="bi_exclamation-circle-fill.png">Solo letras minusculas y sin acentos</p>
-                    <input type="submit" value="Encriptar" class="encriptar">
-                    <input type="submit" value="Desencriptar" class="desencriptar">
+                    <input type="button" value="Encriptar" class="encriptar" onclick="btnEncriptar()">
+                    <input type="button" value="Desencriptar" class="desencriptar" onclick="btnDesencriptar()">
                 </div>
             </section>
             <section>
-                <textarea  id="mensaje-encriptado" cols="20" rows="10" class="mensaje-cifrado" placeholder="Ningun mensaje fue encontrado Ingresa el texto que desees encriptar o desencriptar"></textarea>
+                <textarea id="mensaje-encriptado" cols="20" rows="10" class="mensaje-cifrado" placeholder="Ningun mensaje fue encontrado Ingresa el texto que desees encriptar o desencriptar"></textarea>
                 <div>
-                    <input type="submit" value="Copiar" class="copiar">
+                    <input id="copiar" type="submit" value="Copiar" class="copiar" onclick="btnCopiar()">
                 </div>
             </section>
         </main>
@@ -43,7 +40,7 @@
             
             <p> <img src="Logo-2.png" class="logo-pie"><a href="https://www.linkedin.com/in/rosaura-urbina-salvador/">Codigo realizado por: Rosaura Urbina Salvador</a></p>
         </footer>
-
+<script src="app.js"></script>
     </body>
 
 </html>
